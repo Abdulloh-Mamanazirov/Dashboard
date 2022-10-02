@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.container1 {
+  padding: 20px;
+  margin: 0;
+  width: 280px;
+  background: linear-gradient(175.93deg, #5f00d8 -10.23%, #b200f1 117.03%);
+  height: 100vh;
+}
+
+.sidebar {
+  padding: 0;
+}
+
+hr {
+  background-color: rgba(197, 197, 197, 0.449);
+  border: 0.5px solid rgba(236, 236, 236, 0.178);
+}
+.sidebar-ul {
+  color: #fff;
+}
+.sidebar-item {
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-item:last-child {
+  margin-top: 90px;
+}
+
+/* Sidebar end*/
+
+/* Right section */
+
+.right-section {
+  display: flex;
+}
+
+.right-section button {
+  margin-top: 62px;
+  margin-left: 10px;
+  width: 67px;
+  height: 35px;
+  border-radius: 10px;
+  border: transparent;
+}
+.right-section h2 {
+  margin-top: 55px;
+  margin-left: 80px;
+  font-size: 36px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: dimgray;
+  display: inline-block;
+  margin-bottom: 1.2px;
+}
+
+.btn2 {
+  background-color: #10cd45;
+  color: #fff;
+}
+
+.list {
+  width: 1062px;
+  margin-left: -1050px;
+  margin-top: 130px;
+}
+
+.table {
+  border-collapse: collapse;
+  min-width: 1102px;
+}
+
+.table thead tr {
+  font-weight: 500;
+  color: #878787;
+  text-align-last: left;
+}
+
+.table th,
+.table td {
+  padding: 6.5px 15px;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #eef2f5;
+}
+
+.profit {
+  color: #16df34;
+}
+
+.loss {
+  color: red;
+}
+
+.name {
+  padding-left: 15px;
+  position: relative;
+  bottom: 10px;
+}
+
+.images {
+  width: 36px;
+  height: 35px;
+  border-radius: 50%;
+}
+/* Right section end */
+
+/* Hover */
+.btn1:hover {
+  transform: scale(1.06);
+  box-shadow: 1px 1px 3px #d4d4d4, 1px -1px 3px #d4d4d4, -1px 1px 3px #d4d4d4,
+    -1px -1px 3px #d4d4d4;
+}
+.btn1 {
+  transition: all 0.3s;
+}
+
+.btn2:hover {
+  transform: scale(1.06);
+  box-shadow: 1.2px 1.2px 3px rgb(0, 200, 0), -1.2px 1.2px 3px rgb(0, 200, 0),
+    1.2px -1.2px 3px rgb(0, 200, 0), -1.2px -1.2px 3px rgb(0, 200, 0);
+}
+.btn2 {
+  transition: all 0.3s;
+}
